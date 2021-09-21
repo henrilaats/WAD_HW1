@@ -1,12 +1,12 @@
-html {
-    background-color: skyblue;
+.login{
+    background-color: #1778BD;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-body {
+.login body {
     display: flex;
     font-family: cursive;
     font-weight: 100;
@@ -23,7 +23,7 @@ body {
     width: 300px;
     height: 450px;
     text-align: center;
-    padding: 0px auto;
+    padding: 0px ;
 }
 
 .photos {
@@ -48,23 +48,23 @@ body {
 }
 
 
-.box  input[type="password"], .box input[type="text"]{
+.box input, .box input{
     border: 0;
     display: block;
     margin: 12px auto;
     text-align: left;
     font-size: 20px;
-    border: 2px solid black;
+    border: 2px solid #1778BD;
     padding: 10px 10px;
     width: 170px;
     border-radius: 10px;
     outline: none;
 }
 
-.box button[type="button"] {
+.box button {
     border: 0px;
-    background-color:skyblue;
-    border: 2px skyblue solid;
+    background-color:#1778BD;
+    border: 2px #1778BD solid;
     display: block;
     margin: 12px auto;
     border: none;
@@ -76,7 +76,51 @@ body {
     cursor: pointer;
     outline: none;
 }
-.box button[type="button"]:hover {
-    background-color: lawngreen;
-    ;
+.box button:hover {
+    background-color: skyblue;
 }
+nav {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    width: 100%;
+}
+nav div{
+    width: 33%;
+}
+nav div img{
+    height: 50px;
+}
+nav div.search-container > input {
+    box-sizing: border-box;
+    height: 30px;
+    width: 75%;
+    border: 1px solid #1778BD;
+}
+
+nav div.search-container > button {
+    box-sizing: border-box;
+    height: 30px;
+    width: 25%;
+    border: 1px solid #1778BD;
+    cursor: pointer;
+    background-color: #1778BD;
+}
+#account{
+    display: flex;
+    justify-content: flex-end;
+}
+.layout {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 550px;
+}
+.side {
+    background-color: #1778BD;
+    width: 20%;
+}
+.center{
+    background-color: white;
+    width: 60%
+ }
