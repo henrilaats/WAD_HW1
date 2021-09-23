@@ -124,3 +124,30 @@ nav div.search-container > button {
     background-color: white;
     width: 60%
  }
+
+h1 {
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+div p {
+  margin: 25px;
+}
+p::first-line {
+  background-color: burlywood;
+  size: 25px;
+}
+div > h2 {
+  text-align: center;
+}
+
+
+.center h1+p{
+    background-color: skyblue;
+}
+.center h2~p{
+    background-color: tomato;
+}
