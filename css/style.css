@@ -1,3 +1,9 @@
+a ~ p {
+    margin-top: 20px;
+    color: black;
+    font-family:cursive;
+    font-size: 20px;
+}
 .login{
     background-color: #1778BD;
     height: 100%;
@@ -127,7 +133,8 @@ nav div.search-container > button {
     width: 60%
  }
 .post{
-    margin: auto;
+    
+    margin: 20px auto;
     border: 1px solid darkgray;
     border-radius: 5%;
     width: 70%;
@@ -148,9 +155,14 @@ div + .post-image{
     display: flex;
     justify-content: center;
     height: 350px;
+    width: 350px;
     padding-top: 10px;
     overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
 .like-button button{
     border: none;
     padding: 5px;
